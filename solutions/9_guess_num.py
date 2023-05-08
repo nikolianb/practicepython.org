@@ -5,7 +5,7 @@ tries = 0
 
 while True:
     guess = input("Give me a number from 1 to 9: ")
-    if(guess == "ext"):
+    if(guess.lower() == "ext"):
         break
     guess = int(guess)
     if(guess > num):
